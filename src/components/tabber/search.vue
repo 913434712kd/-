@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>SEARCH</h1>
+    <div class="search">
+        <mt-search autofocus class="a"></mt-search>
     </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.search{height:50px}
 </style>

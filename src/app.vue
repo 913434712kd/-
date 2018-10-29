@@ -1,6 +1,6 @@
 <template>
     <div class="app-container">
-        <mt-header fixed title="饿了吧"></mt-header>
+        <mt-header fixed title="我的新项目"></mt-header>
 
 		<transition><router-view></router-view></transition>
 		
