@@ -1,10 +1,4 @@
-#饿了吗
-
-##饿了您就点个外卖呗
-
-###不好吃不要钱哦
-
-####哈哈哈哈
+#在newslist.vue组件中通过聚合数据提供的API接口获取新闻信息，但使用vue-resource获取时发现存在跨域问题,由于我是用webpack-dev-server进行代理，在webpack.config.js中进行如下配置 devServer:{ proxy:{'/**':{target:'http://v.juhe.cn',changeOrigin: true,secure: false}}},/** 意思是代理所有请求, target 就是要代理到的网站,changeOrigin 的意思就是把 http 请求中的 Origin 字段进行变换，在浏览器接收到后端回复的时候，浏览器会以为这是本地请求，而在后端那边会以为是在站内的调用。这样，通过这个简单的配置，就完美地解决了跨域的问题。
 
 ##导入MUI中的tap-top-webview-main样式，发现导航栏将app组件的Header部分给占了。解决方案：将slider区域的类名为mui-fullscreen这个类去掉
 
